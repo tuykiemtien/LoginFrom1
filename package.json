@@ -1,0 +1,24 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-addons-css-transition-group": "^16.0.0-alpha.3",
+    "react-dom": "^16.0.0",
+    "react-transition-group": "^1.2.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "style-loader": "^0.18.2"
+  }
+}
